@@ -19,7 +19,7 @@ class patient {
         }
     }
     paye(prix, creancier){
-        this.poche-=prix;
+        this.argent-=prix;
         creancier+=prix;
     }
 }
